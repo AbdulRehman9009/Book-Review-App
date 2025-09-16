@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Review App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Book Review App</h1>
+        <div class="banner">
+            <span class="banner-text" id="banner1">Book</span>
+            <span class="banner-text" id="banner2">App</span>
+        </div>
+        <form id="form">
+            <input type="text" id="title" placeholder="Title" required>
+            <input type="text" id="author" placeholder="Author" required>
+            <textarea id="review" placeholder="Review" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="books">
+        <div id="book-list">
+            <h2>Book List</h2>
+            <div class="result">Nothing Here.
+                <br>First Submit the book data
+            </div>
+            <div class="err"></div>
+            <ul id="bookList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
